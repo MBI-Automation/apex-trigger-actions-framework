@@ -1,11 +1,18 @@
 {
-	"packageDirectories": [
-		{
-			"path": "trigger-actions-framework",
-			"default": true
-		}
-	],
-	"namespace": "",
-	"sfdcLoginUrl": "https://login.salesforce.com",
-	"sourceApiVersion": "54.0"
+  "packageDirectories": [
+    {
+      "path": "trigger-actions-framework",
+      "default": true,
+      "package": "apex-trigger-actions-framework",
+      "versionName": "v1.0",
+      "versionNumber": "1.0.0.NEXT"
+    }
+  ],
+  "namespace": "",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "56.0",
+  "packageAliases": {
+    "apex-trigger-actions-framework": "0HoEY000000000f0AA",
+    "apex-trigger-actions-framework@1.0.0-1": "04tEY0000000SEQYA2"
+  }
 }
